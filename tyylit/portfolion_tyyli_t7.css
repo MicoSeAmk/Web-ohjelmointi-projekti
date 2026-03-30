@@ -1,0 +1,55 @@
+body {
+    background-color: #d5ff9a;
+    font-family: Arial;
+    margin: 0;
+}
+
+h1 {
+    color: #ffd900;
+    text-align: center;
+    font-size: 45px;
+    background: #bd6a32;
+    padding: 40px;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 15px;
+    padding: 30px;
+}
+
+video, img, table {
+    padding: 30px;
+}
+
+li {
+    padding: 10px;
+}
+
+h2, h3 {
+    font-family: Verdana;
+    padding: 30px;
+}
+
+.Buttons {
+  display: flex;
+  background-color: #654525;
+}
+
+.Buttons a {
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.Buttons a:hover {
+  background-color: #eba25d;
+  color: black;
+}
+
+@media screen and (max-width: 700px) {
+  .Buttons {  
+    flex-direction: column;
+  }
+}
