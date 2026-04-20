@@ -22,7 +22,11 @@ video, img, table {
     padding: 30px;
 }
 
-li {
+li, select {
+    padding: 10px;
+}
+
+#laskinasetus {
     padding: 10px;
 }
 

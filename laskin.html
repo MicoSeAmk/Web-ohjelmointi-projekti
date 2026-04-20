@@ -1,0 +1,46 @@
+<!--
+Laskin
+-->
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <link rel="stylesheet" href="tyylit/portfolion_tyyli_t7.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laskin</title>
+</head>
+<body>
+    <h1>Laskin</h1>
+    <div class="Buttons">
+    <a href="./index.html">
+        Portfolion etusivu</a>
+    <a href="./elements.html">
+        Elementtejä</a>
+    <a href="./muotoiluja.html">
+        Muotoiluja</a>
+    <a href="./tyylisivuista.html">
+        Tyylisivuista</a>
+    <a href="./laskin.html">
+        Laskin</a>
+    </div>
+    <h2>Käyttö</h2>
+    <p>Laskin tukee + ja - laskuja, sekä * ja / laskuja.</p>
+    
+    <div id="laskinasetus">
+    <input id="num1" type="number" placeholder="Luku 1">
+    <select id="merkki">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+    </select>
+    <input id="num2" type="number" placeholder="Luku 2">
+
+    <button onclick="laske()">Laske</button>
+
+    <p id="tulos"></p>
+    </div>
+
+    <script src="./Skriptit/Laskin.js"></script>
+</body>
+</html>
