@@ -45,11 +45,13 @@ h2, h3 {
   padding: 15px 30px;
   text-decoration: none;
   text-align: center;
+  transition: transform 0.1s ease;
 }
 
 .Buttons a:hover {
   background-color: #eba25d;
   color: black;
+  transform: scale(1.15);
 }
 
 @media screen and (max-width: 700px) {
